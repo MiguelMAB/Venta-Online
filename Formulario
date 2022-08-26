@@ -1,1 +1,62 @@
-
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="Form_Clientes">
+            <form action="" method="post" class="Formulario_Clientes">
+                <center><h2 class="Titulo_Clientes">CLIENTES</h2></center>
+                <center>
+                <table class="TABLA_CLIENTES" border="1">
+                    <tr>
+                        <td class="Id_Clientes">Id_Cliente</td>
+                        <td><input type="text" class="text_Id_Clientes" placeHolder="Codigo del cliente"></td>
+                    </tr>
+                    <ty>
+                        <td class="Nombres_Apellidos">Nombres y apellidos</td>
+                        <td><input type="text" class="text_Nombres_Apellidos" placeHolder="Nombres y apellidos"></td>
+                    </ty>
+                    <tr>
+                    <td class="Tipo_Documento">DOCUMENTO IDENTIDAD</td>
+                            <td><select name="Tipo_Documento" class="Tipo_Documento">
+                                    <option>CEDULA CIUDADANIA</option>
+                                    <option>TARJETA DE IDENTIDAD</option>
+                                    <option>CEDULA EXTRANJERIA</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="Numero_Documento">Numero Documento</td>
+                        <td><input type="text" class="text_Numero_Documento" placeHolder="Numero documento de identidad"></td>
+                    </tr>
+                    <td class="Genero">Genero</td>
+                            <td><select name="Tipo_Documento" class="Tipo_Documento">
+                                    <option>MASCULINO</option>
+                                    <option>FEMENINO</option>
+                                    <option>NO BINARIO</option>
+                                    <option>NO DEFINIDO</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="DIRECCION">DIRECCION</td>
+                        <td><input type="text" class="text_DIRECCION" placeHolder="Direccion del cliente"></td>
+                    </tr>
+                    <tr>
+                        <td class="TELEFONO">TELEFONO</td>
+                        <td><input type="text" class="text_TELEFONO" placeHolder="Telefono del cliente"></td>
+                    </tr>
+                    <tr>
+                        <td><center><input type="submit" class="btn_registrarse" value="Registrarse"></center></td>
+                    </tr>
+                </table>
+                </center>
+            </form>
+        </div>
+    </body>
+</html>
